@@ -3,7 +3,45 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
 
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.img-bandeiras{
+    background-image: url(../images/bandeiras-juninas.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 165px;
+    margin: 0 auto;
+}
+
+.apresentacao{
+    width: 100%;
+    background-color: #FFC107;
+    height: 290px;
+    position: relative;
+    text-align: right;
+    list-style-position: inside;
+}
+
+.apresentacao ul li{
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.apresentacao > .img-homem-comendo-milho{
+    background-image: url(../images/festa-junina-jovem-bonitinho-de-chapeu-de-palha-e-bandeiras.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    right: -14px;
 }
 
 
